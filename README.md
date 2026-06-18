@@ -54,7 +54,7 @@ vsim -c -do "run -all; exit" tb_top
 ## 📊 Sample Output
 Here is the simulation log demonstrating successful data matching and 100% functional coverage across all bins:
 
-![Simulation Output Log](sim_log.png)
+![Simulation Output Log](sim_log)
 
 ## 👨‍💻 Author
 **[Madhujya Kalita]** *Electronics and Communication Engineering* [linkedin.com/in/madhujya-kalita-360328192] | [madhujyahere1@gmail.com]
