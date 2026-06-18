@@ -50,7 +50,7 @@ This environment was developed and simulated using Aldec Riviera-PRO, but is ful
 vlib work
 vlog -timescale 1ns/1ns design.sv testbench.sv
 vsim -c -do "run -all; exit" tb_top
-
+```
 ## 📊 Sample Output
 Here is the simulation log demonstrating successful data matching and 100% functional coverage across all bins:
 ![Simulation Output Log](sim_log.png)
