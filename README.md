@@ -52,15 +52,9 @@ vlog -timescale 1ns/1ns design.sv testbench.sv
 vsim -c -do "run -all; exit" tb_top
 
 ## 📊 Sample Output
-```text
-[SCB PASS] Data Match: 59
-[SCB PASS] Data Match: 55
-[SCB PASS] Data Match: bc
-...
-=======================================
- Final Functional Coverage: 100.00%
-=======================================
-Test Completed.
+Here is the simulation log demonstrating successful data matching and 100% functional coverage across all bins:
+
+![Simulation Output Log](sim_log.png)
 
 ## 👨‍💻 Author
 **[Madhujya Kalita]** *Electronics and Communication Engineering* [linkedin.com/in/madhujya-kalita-360328192] | [madhujyahere1@gmail.com]
